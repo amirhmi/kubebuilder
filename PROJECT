@@ -1,0 +1,7 @@
+domain: amir.job
+repo: gihub.com/amirhmi/kubebuilder
+resources:
+- group: jobs
+  kind: PeriodicCurl
+  version: v1alpha1
+version: "2"
