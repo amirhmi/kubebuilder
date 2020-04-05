@@ -1,0 +1,7 @@
+apiVersion: jobs.amir.job/v1alpha1
+kind: PeriodicCurl
+metadata:
+  name: periodiccurl-sample
+spec:
+  url: "https://www.google.com"
+  coefficient: 2
